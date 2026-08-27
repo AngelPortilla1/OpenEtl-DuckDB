@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  etl_runner:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - API_ENDPOINT=https://www.datos.gov.co/resource/c8aw-p9sa.json # Ejemplo: Puntos Vive Digital / Conectividad
