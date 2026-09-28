@@ -1,2 +1,3 @@
 .venv
 warehouse.db
+query_test.db
